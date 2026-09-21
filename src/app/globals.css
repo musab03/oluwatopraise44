@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #ebe7df;
-  --bg-deep: #ddd6cb;
-  --ink: #1a1814;
-  --muted: #5f574c;
-  --surface: #f6f3ec;
-  --line: rgba(26, 24, 20, 0.12);
-  --accent: #0b5a4a;
-  --accent-hover: #084539;
-  --brass: #9b7343;
+  --bg: #dfe8e4;
+  --bg-deep: #c5d2cc;
+  --ink: #12201c;
+  --muted: #4a5a54;
+  --surface: #eef4f1;
+  --line: rgba(18, 32, 28, 0.14);
+  --accent: #0a5244;
+  --accent-hover: #073d33;
+  --brass: #2f6f5e;
   --hero-scrim: linear-gradient(
     105deg,
-    rgba(18, 16, 12, 0.82) 0%,
-    rgba(18, 16, 12, 0.62) 38%,
-    rgba(18, 16, 12, 0.28) 68%,
-    rgba(18, 16, 12, 0.12) 100%
+    rgba(10, 24, 20, 0.84) 0%,
+    rgba(10, 24, 20, 0.64) 38%,
+    rgba(10, 24, 20, 0.3) 68%,
+    rgba(10, 24, 20, 0.12) 100%
   );
 }
 
@@ -47,14 +47,14 @@ body {
   color: var(--ink);
   font-family: var(--font-body), system-ui, sans-serif;
   background-image:
-    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(155, 115, 67, 0.12), transparent 55%),
-    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(11, 90, 74, 0.08), transparent 50%),
-    linear-gradient(180deg, #ebe7df 0%, #e4dfd5 100%);
+    radial-gradient(ellipse 70% 45% at 0% 0%, rgba(10, 82, 68, 0.14), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 100% 10%, rgba(35, 70, 90, 0.1), transparent 50%),
+    linear-gradient(180deg, #e4ece8 0%, #d5e0db 100%);
   background-attachment: fixed;
 }
 
 ::selection {
-  background: rgba(11, 90, 74, 0.22);
+  background: rgba(10, 82, 68, 0.22);
 }
 
 a {
@@ -97,24 +97,24 @@ a {
 
 /* After hero — sticky frosted bar */
 .site-header--solid {
-  background: rgba(246, 243, 236, 0.94);
+  background: rgba(238, 244, 241, 0.94);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 1px 0 rgba(26, 24, 20, 0.04);
+  box-shadow: 0 1px 0 rgba(18, 32, 28, 0.06);
 }
 
 .site-header--solid .site-header__brand {
-  background: #1a1814;
+  background: #12201c;
   color: #ffffff !important;
 }
 
 .site-header--solid .site-header__link {
-  color: #1a1814 !important;
+  color: #12201c !important;
 }
 
 .site-header--solid .site-header__link:hover {
-  background: rgba(26, 24, 20, 0.06);
+  background: rgba(18, 32, 28, 0.07);
 }
 
 .site-header__brand {
@@ -162,14 +162,14 @@ a {
   margin-left: 0.25rem;
   padding: 0 1rem;
   border-radius: 0.375rem;
-  background: #0b5a4a;
+  background: #0a5244;
   color: #ffffff !important;
   font-weight: 600;
   transition: background-color 0.2s ease;
 }
 
 .site-header__contact:hover {
-  background: #084539;
+  background: #073d33;
 }
 
 img {
@@ -285,7 +285,7 @@ img {
   flex-direction: column;
   height: 100%;
   margin: 0;
-  background: #f3efe7;
+  background: #e8f0ec;
   border: 1px solid var(--line);
 }
 
@@ -312,7 +312,7 @@ img {
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: var(--muted);
-  background: #f3efe7;
+  background: #e8f0ec;
   border-top: 1px solid var(--line);
 }
 
